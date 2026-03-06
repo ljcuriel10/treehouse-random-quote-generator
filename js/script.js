@@ -11,28 +11,28 @@ Luis Curiel
 
 const quotes = [
   {
-    "quote": "The unexamined life is not worth living.",
-    "philosopher": "Socrates",
-    "citation": "Plato, Apology",
-    "year": -399
+    quote: "The unexamined life is not worth living.",
+    philosopher: "Socrates",
+    citation: "Plato, Apology",
+    year: -399
   },
   {
-    "quote": "I think, therefore I am.",
-    "philosopher": "René Descartes"
+    quote: "I think, therefore I am.",
+    philosopher: "René Descartes"
   },
   {
-    "quote": "Happiness is not an ideal of reason but of imagination.",
-    "philosopher": "Immanuel Kant",
-    "citation": "Critique of Pure Reason"
+    quote: "Happiness is not an ideal of reason but of imagination.",
+    philosopher: "Immanuel Kant",
+    citation: "Critique of Pure Reason"
   },
   {
-    "quote": "He who has a why to live can bear almost any how.",
-    "philosopher": "Friedrich Nietzsche",
-    "year": 1889
+    quote: "He who has a why to live can bear almost any how.",
+    philosopher: "Friedrich Nietzsche",
+    year: 1889
   },
   {
-    "quote": "Man is condemned to be free.",
-    "philosopher": "Jean-Paul Sartre"
+    quote: "Man is condemned to be free.",
+    philosopher: "Jean-Paul Sartre"
   }
 ]
 
@@ -71,8 +71,8 @@ const printQuote = () => {
 
   //String to insert into the browser
   let html = `
-    <p class="quote">${quote}</p> 
-    <p class="source">${source}
+    <p class=quote>${quote}</p> 
+    <p class=source">${surce}
   `
 
   // Check whether the object has either a citation or year key
