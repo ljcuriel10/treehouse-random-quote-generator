@@ -72,7 +72,7 @@ const printQuote = () => {
   //String to insert into the browser
   let html = `
     <p class=quote>${quote}</p> 
-    <p class=source">${surce}
+    <p class=source">${source}
   `
 
   // Check whether the object has either a citation or year key
